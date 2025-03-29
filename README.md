@@ -5,7 +5,7 @@
 1. Clone the repository:
 
 ```bash
-git clone <repo-url> <destination>
+git clone https://github.com/HaileabT/monkeytype-linux-unofficial.git <destination>
 ```
 
 2. Navigate to the cloned directory:
