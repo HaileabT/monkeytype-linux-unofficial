@@ -30,6 +30,7 @@ printf "${NC}"
 echo "Building the app..."
 npm run build
 echo "App built successfully."
+
 printf "${RED}"
 for ((i=0; i<FENCE_AMOUNT; i++)); do
   printf '%s' "$FENCE_CHAR"
@@ -40,6 +41,7 @@ printf "${NC}"
 echo "Making desktop shortcut"
 cp ./desktop/monkeytype.desktop ~/.local/share/applications/
 echo "Desktop shortcut created."
+
 printf "${RED}"
 for ((i=0; i<FENCE_AMOUNT; i++)); do
   printf '%s' "$FENCE_CHAR"
