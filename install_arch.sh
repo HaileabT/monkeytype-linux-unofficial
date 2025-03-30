@@ -39,6 +39,8 @@ echo
 printf "${NC}"
 
 echo "Making desktop shortcut"
+current_dir=$(pwd)
+sed -i "s|<pwd>|$current_dir|g" ./desktop/monkeytype.desktop
 cp ./desktop/monkeytype.desktop ~/.local/share/applications/
 echo "Desktop shortcut created."
 
